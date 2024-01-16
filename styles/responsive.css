@@ -1,0 +1,32 @@
+@media screen and (max-width: 600px) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-logo-content{
+        font-size: 25px;
+    }
+    .nav-social-link ul{
+        display: none;
+    }
+
+    /* .navbar-icon{
+        opacity: 1; 
+        position: absolute;
+        top: 50px;
+        right: 30px;
+    } */
+    .popular-tour-container{
+        flex-direction: column;
+        padding: 0px;
+    }
+    
+}
+
+/* destination styles */
+
+.section-title{
+    font-size: 20px;
+}
+.destination-description{
+    font-size: 16px;
+}

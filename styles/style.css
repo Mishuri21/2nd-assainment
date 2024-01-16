@@ -1,0 +1,231 @@
+
+/* common styles area */
+.color-primary{
+    color: #FF5400;
+}
+
+
+.nav-container{
+    max-width: 1150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+}
+.nav-logo-content{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-logo-content > h2{
+    font-size: 35px;
+    font-style: 800;
+}
+.nav-social-link ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.nav-social-link li{
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+.nav-social-link li a{
+    text-decoration: none;
+}
+
+
+.banner{
+    border-radius: 16px;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url("./../Images/Group 13 (1) (1).png");
+    
+}
+
+/* main section styles area start */
+main{
+    max-width: 1440px;
+    margin: 0px auto;
+}
+.popular-tour-container{
+    max-width: 1150px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 20px;
+}
+.section-title{
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 0px;
+}
+.section-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.651);
+    margin: 25px 0px;
+}
+.btn-primary{
+    text-align: center;
+    padding: 15px 25px;
+    color: white;
+    background-color: #FF5400;
+    border: none;
+    border-radius: 5px;
+}
+.popular-tour-content ul{
+    padding-left: 0px;
+}
+
+/* 
+/* destination styles start */
+
+
+.destination-container{
+    max-width: 1150px;
+    margin: 50px auto;
+    text-align: center;
+}
+.destination-title{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+.destination-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.74);
+    margin-top: 25px;
+}
+
+
+
+
+/* choose us section styles */
+.choose-us-container{
+    max-width: 1150px;
+    margin: 50px auto;
+    text-align: center;
+}
+.choose-content >h2{
+    font-size: 40px;
+}
+.choose-content > p{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.774);
+}
+
+.flex-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.card{
+    width: 42%;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    text-align: left;
+    padding: 25px;
+}
+.card-icon > i{
+    color: dodgerblue;
+    font-size: 34px;
+}
+.card-title{
+    font-size: 24px;
+    font-weight: 800;
+}
+.card-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.747);
+}
+.color-secondary{
+    background-color: rgba(41, 206, 246, 0.05);
+}
+.normal-div{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-container{
+    width: 40%;
+    border: black 1px solid;
+    border-radius: 5px;
+    padding: 30px 10px;
+}
+.form-title{
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.form-description{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.712);
+    margin-top: 10px;
+}
+.img-div{
+    width: 55%;
+}
+.img-div > img{
+    width: 100%;
+}
+.input-btn{
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    width: 80%;
+    padding: 15px 24px;
+    margin: 20px 0px;
+}
+.input-btn-two{
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    width: 80%;
+    padding: 15px 25px;
+}
+.subscribe-btn{
+    border-radius: 8px;
+    background-color: #FF5400;
+    border: none;
+    padding: 15px 25px;
+    width: 80%;
+    margin-top: 15px;
+    color: white;
+}
+
+/* footer styles */
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 40px;
+}
+.footer-section{
+    text-align: center;
+    padding: 80px 0px;
+}
+.footer-title{
+    font-size: 24px;
+    margin: 20px;
+}
+.footer-description{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.637);
+    margin-bottom: 20px;
+}
+.footer-section span{
+    margin: 15px 20px;
+}
+.footer-description-two{
+    margin-top: 50px;
+}
