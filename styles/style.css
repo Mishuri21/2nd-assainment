@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 /* common styles area */
+body{
+    font-family: "Poppins", sans-serif;
+}
+
 .color-primary{
     color: #FF5400;
 }
@@ -35,12 +41,57 @@
     text-decoration: none;
 }
 
-
+/* banner section start */
 .banner{
+    max-width: 1140px;
+    height: auto;
+    margin: 50px auto;
     border-radius: 16px;
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url("./../Images/Group 13 (1) (1).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-bottom: 50px;
     
 }
+.banner-content{
+    padding-top: 5%;
+}
+.banner-title{
+    font-size: 60px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 0px;
+}
+.banner-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(240, 248, 255, 0.719);
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.banner-btn-container{
+    width: 50%;
+    border-radius: 5px;
+    background-color: rgba(240, 248, 255, 0.363);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 50px auto;
+    padding: 10px;
+
+
+}
+.banner-btn{
+    padding: 15px 25px;
+    color: rgba(0, 0, 0, 0.568);
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    
+}
+/* banner section end */
 
 /* main section styles area start */
 main{
@@ -76,10 +127,9 @@ main{
     border-radius: 5px;
 }
 .popular-tour-content ul{
-    padding-left: 0px;
+    padding-left: px;
 }
 
-/* 
 /* destination styles start */
 
 
@@ -99,8 +149,15 @@ main{
     color: rgba(0, 0, 0, 0.74);
     margin-top: 25px;
 }
+.destination-img-contaier{
+    max-width: 1150px;
+}
 
-
+.box{
+    display: flex;
+    column-gap: 10px;
+    margin-top: 10px;
+}
 
 
 /* choose us section styles */
@@ -124,7 +181,7 @@ main{
     margin-top: 50px;
 }
 .card{
-    width: 42%;
+    width: 40%;
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);

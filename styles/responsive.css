@@ -4,29 +4,51 @@
     }
     .nav-logo-content{
         font-size: 25px;
+        justify-content: left;
     }
     .nav-social-link ul{
         display: none;
     }
-
-    /* .navbar-icon{
-        opacity: 1; 
-        position: absolute;
-        top: 50px;
-        right: 30px;
-    } */
     .popular-tour-container{
         flex-direction: column;
         padding: 0px;
+    }
+    .section-title{
+        font-size: 20px;
+    }
+    .destination-description{
+        font-size: 14px;
+    }
+    
+    
+
+    .banner{
+        height: 490px;
+    }
+    .banner-title{
+        font-size: 25px;
+    }
+    .banner-description{
+        font-size: 14px;
+        width: 75%;
+        margin: 0px auto;
+    }
+    .banner-btn-container{
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .box{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .destination-img-contaier .box img{
+        width: 100%;
+        margin-top: 10px;
     }
     
 }
 
 /* destination styles */
 
-.section-title{
-    font-size: 20px;
-}
-.destination-description{
-    font-size: 16px;
-}
